@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Detecte automaticamente animes dublados na Crunchyroll e outras plataformas suportadas.</b>
+  <b>Detecte automaticamente animes dublados, Notas, e detector de episodio na Crunchyroll</b>
 </p>
 
 <p align="center">

@@ -1,0 +1,63 @@
+{
+  "manifest_version": 3,
+  "name": "AnimeDUB",
+  "version": "13.0",
+  "description": "Detecta dublagem e status de animes na Crunchyroll",
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "Crunchy Dub Detector"
+  },
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "https://www.crunchyroll.com/*",
+    "https://graphql.anilist.co/*",
+    "https://api.jikan.moe/*",
+    "https://api.themoviedb.org/*",
+    "https://kitsu.io/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.crunchyroll.com/*"
+      ],
+      "js": [
+        "content.js",
+        "status.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "database.json"
+      ],
+      "matches": [
+        "https://www.crunchyroll.com/*"
+      ]
+    }
+  ]
+}

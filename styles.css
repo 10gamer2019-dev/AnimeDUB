@@ -1,0 +1,47 @@
+/* Badge base */
+.ptbr-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+
+    margin-left: 6px;
+    padding: 3px 8px;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    border-radius: 999px;
+
+    color: white;
+
+    user-select: none;
+}
+
+/* Crunchy */
+.ptbr-dub {
+    background: #f47521;
+}
+
+.ptbr-leg {
+    background: #666666;
+}
+
+/* Netflix */
+.ptbr-netflix {
+    background: #E50914;
+}
+
+/* Prime */
+.ptbr-prime {
+    background: #00A8E1;
+}
+
+/* Disney */
+.ptbr-disney {
+    background: #113CCF;
+}
+
+/* HBO */
+.ptbr-hbo {
+    background: #7B2FF7;
+}

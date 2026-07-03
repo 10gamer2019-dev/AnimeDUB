@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Screenshot+ou+GIF+2](https://cdn.discordapp.com/attachments/907101796655321088/1522735184531816468/image.png?ex=6a498d27&is=6a483ba7&hm=c069e01f6fb450fc1d0bbebde789f2a5abb62dc155be642e91b7f246df9e3e74&" width="80%">
+  <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522734912128680117/image.png?ex=6a498ce6&is=6a483b66&hm=06dbc588ed1dc3e95314445dcfe3d8ff619bcc69b2237be4c8853437a7cecf97&" width="80%">
 </p>
 
 ---

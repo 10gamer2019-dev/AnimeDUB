@@ -1,4 +1,4 @@
-# 🎬 AnimeDUB
+# AnimeDUB
 
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522734112912179401/Heading_3-Photoroom.png?ex=6a498c27&is=6a483aa7&hm=07c61d747cc20430ef3546789fcc46a6b985d6ae86fd9d1c9d5bf4cb8dd5dc0f&" alt="AnimeDUB Banner">

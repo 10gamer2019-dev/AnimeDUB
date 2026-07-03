@@ -177,32 +177,6 @@ AnimeDUB/
 
 ---
 
-## 🖼️ Adicionando suas imagens
-
-Para adicionar imagens ao README:
-
-1. Crie uma pasta chamada:
-
-```text
-assets/
-```
-
-2. Adicione suas imagens:
-
-```text
-assets/banner.png
-assets/demo1.png
-assets/demo2.gif
-```
-
-3. Utilize no README:
-
-```html
-<img src="assets/demo1.png" width="80%">
-```
-
----
-
 ## 💡 Objetivo
 
 O AnimeDUB foi criado para facilitar a vida dos fãs de anime, oferecendo informações importantes de forma rápida, integrada e automatizada.

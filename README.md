@@ -22,7 +22,6 @@
   <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522742364052131942/image_2.png?ex=6a4993d6&is=6a484256&hm=9df5c18aefddbc779679a50caa43247fdf2cb3a0e81376bb4071b4de8418a212&" width="100%">
 </p>
 
-> 💡 Você pode adicionar mais screenshots ou GIFs na pasta `assets/` para demonstrar novas funcionalidades.
 
 ---
 

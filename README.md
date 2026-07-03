@@ -1,11 +1,11 @@
-# AnimeDUB
+# 🎬 AnimeDUB
 
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522734112912179401/Heading_3-Photoroom.png?ex=6a498c27&is=6a483aa7&hm=07c61d747cc20430ef3546789fcc46a6b985d6ae86fd9d1c9d5bf4cb8dd5dc0f&" alt="AnimeDUB Banner">
 </p>
 
 <p align="center">
-  <b>Detecte automaticamente animes dublados, Notas e episodio novos na Crunchyroll</b>
+  <b>Detecte automaticamente animes dublados, avaliações e novos episódios em plataformas de streaming.</b>
 </p>
 
 <p align="center">
@@ -14,29 +14,67 @@
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge">
 </p>
 
+---
 
-## Demonstração
+## 📸 Demonstração
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522742364052131942/image_2.png?ex=6a4993d6&is=6a484256&hm=9df5c18aefddbc779679a50caa43247fdf2cb3a0e81376bb4071b4de8418a212&" width="110%">
+  <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522742364052131942/image_2.png?ex=6a4993d6&is=6a484256&hm=9df5c18aefddbc779679a50caa43247fdf2cb3a0e81376bb4071b4de8418a212&" width="100%">
 </p>
+
+> 💡 Você pode adicionar mais screenshots ou GIFs na pasta `assets/` para demonstrar novas funcionalidades.
+
+---
 
 ## 🚀 Sobre o projeto
 
-O **AnimeDUB** é uma extensão inteligente que analisa páginas de animes e identifica automaticamente se existe versão dublada disponível.
+O **AnimeDUB** é uma extensão inteligente desenvolvida para melhorar a experiência de usuários em plataformas de streaming de anime.
 
-Ele cruza dados de APIs como AniList e outras fontes para entregar informações rápidas e precisas sem que o usuário precise procurar manualmente.
+A extensão detecta automaticamente informações importantes, como:
+
+* 🎧 Disponibilidade de dublagem
+* ⭐ Avaliações do anime
+* 📺 Lançamento de novos episódios
+* 📊 Informações adicionais obtidas através de APIs externas
+
+O objetivo é eliminar a necessidade de pesquisar manualmente essas informações, apresentando tudo diretamente na interface da plataforma.
+
+---
+
+## 🌐 Plataformas Suportadas
+
+| Plataforma     | Status      | Recursos                                                       |
+| -------------- | ----------- | -------------------------------------------------------------- |
+| 🟠 Crunchyroll | ✅ Suportado | Dublagem, avaliações, novos episódios e informações adicionais |
+
+---
+
+## 🚧 Plataformas Futuras
+
+| Plataforma      | Status       |
+| --------------- | ------------ |
+| 🔵 Netflix      | 🔄 Planejado |
+| 🟣 Prime Video  | 🔄 Planejado |
+| ⚫ Disney+       | 🔄 Planejado |
+| 🔴 Anime Onegai | 🔄 Planejado |
+| 🟡 HIDIVE       | 🔄 Planejado |
+| 🟢 AnimeBox     | 🔄 Planejado |
+
+> ⚠️ O suporte a novas plataformas dependerá da disponibilidade de dados públicos e da viabilidade técnica de integração.
 
 ---
 
 ## ⚡ Funcionalidades
 
-- 🔍 Detecção automática de anime na página
-- 🎧 Identificação de versões dubladas e legendadas
-- ⚡ Verificação de novos episódios em tempo real
-- 🧠 Sistema de cache inteligente para performance
-- 🌐 Integração com APIs externas (AniList / Jikan)
-- 📊 Interface leve e rápida no navegador
+* 🔍 Detecção automática de animes
+* 🎧 Identificação de versões dubladas
+* ⭐ Exibição de avaliações
+* 📺 Verificação de novos episódios
+* ⚡ Atualização automática de informações
+* 🧠 Sistema de cache inteligente
+* 🌐 Integração com APIs externas
+* 📊 Interface leve e rápida
+* 🔄 Sistema de atualização contínua
 
 ---
 
@@ -44,15 +82,161 @@ Ele cruza dados de APIs como AniList e outras fontes para entregar informações
 
 O AnimeDUB funciona em três etapas:
 
-1. 📡 Detecta o anime na página atual
-2. 🔎 Consulta APIs externas para obter dados oficiais
-3. 🧠 Processa e exibe status de dublagem e episódios
+### 1️⃣ Detecção
+
+A extensão identifica automaticamente qual anime está sendo exibido na página atual.
+
+### 2️⃣ Consulta
+
+São realizadas consultas a bancos de dados e APIs externas para coletar informações atualizadas.
+
+### 3️⃣ Processamento
+
+Os dados são processados e exibidos diretamente na interface do usuário.
 
 ---
 
 ## 📦 Instalação
 
-### 🔧 Método manual (modo desenvolvedor)
+### 🔧 Método manual (Modo Desenvolvedor)
+
+Clone o repositório:
 
 ```bash
 git clone https://github.com/10gamer2019-dev/AnimeDUB
+```
+
+Depois:
+
+1. Abra o Google Chrome.
+2. Acesse:
+
+```
+chrome://extensions/
+```
+
+3. Ative o **Modo do Desenvolvedor**.
+4. Clique em **Carregar sem compactação**.
+5. Selecione a pasta do projeto.
+
+---
+
+## 🧱 Estrutura do projeto
+
+```text
+AnimeDUB/
+├── manifest.json
+├── background.js
+├── content.js
+├── popup/
+├── assets/
+├── database/
+├── icons/
+└── utils/
+```
+
+---
+
+## ⚙️ Permissões utilizadas
+
+| Permissão        | Utilização                         |
+| ---------------- | ---------------------------------- |
+| storage          | Armazenamento local e cache        |
+| tabs             | Identificação da aba atual         |
+| scripting        | Injeção de scripts                 |
+| host_permissions | Comunicação com APIs e plataformas |
+
+---
+
+## 🌐 APIs utilizadas
+
+* AniList API
+* Jikan API
+* APIs internas do AnimeDUB
+* Outras fontes públicas de informação
+
+---
+
+## 📈 Roadmap
+
+### Versão atual
+
+* [x] Detecção de dublagem
+* [x] Sistema de avaliações
+* [x] Novos episódios
+* [x] Sistema de cache
+
+### Futuras versões
+
+* [ ] Suporte a múltiplas plataformas
+* [ ] Notificações automáticas
+* [ ] Sincronização em nuvem
+* [ ] Estatísticas avançadas
+* [ ] Histórico de episódios
+* [ ] Interface totalmente customizável
+* [ ] Tradução para múltiplos idiomas
+
+---
+
+## 🖼️ Adicionando suas imagens
+
+Para adicionar imagens ao README:
+
+1. Crie uma pasta chamada:
+
+```text
+assets/
+```
+
+2. Adicione suas imagens:
+
+```text
+assets/banner.png
+assets/demo1.png
+assets/demo2.gif
+```
+
+3. Utilize no README:
+
+```html
+<img src="assets/demo1.png" width="80%">
+```
+
+---
+
+## 💡 Objetivo
+
+O AnimeDUB foi criado para facilitar a vida dos fãs de anime, oferecendo informações importantes de forma rápida, integrada e automatizada.
+
+---
+
+## ⚠️ Aviso Legal
+
+Este projeto não hospeda, distribui ou disponibiliza conteúdo audiovisual.
+
+O AnimeDUB apenas coleta e apresenta informações públicas provenientes de APIs e serviços externos.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **10gamer2019-dev**
+
+---
+
+## ⭐ Contribuição
+
+Contribuições são sempre bem-vindas.
+
+Você pode contribuir através de:
+
+* 🐛 Reporte de bugs
+* 💡 Sugestões de funcionalidades
+* 🔧 Pull Requests
+* 📖 Melhorias na documentação
+
+---
+
+<p align="center">
+  Feito com ❤️ para a comunidade de animes.
+</p>

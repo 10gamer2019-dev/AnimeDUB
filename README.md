@@ -196,7 +196,7 @@ O AnimeDUB apenas coleta e apresenta informações públicas provenientes de API
 Desenvolvido por 
 
 <p align="Left">
-  <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522752113166258286/Design_sem_nome_10-Photoroom.png?ex=6a499ceb&is=6a484b6b&hm=7b699dc8525b35ca51b01caddb59defc93c7cdf018f6c30038cab0fd2433d125&" width="10%"> <p align="center"> **Akinor1**
+  <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522752113166258286/Design_sem_nome_10-Photoroom.png?ex=6a499ceb&is=6a484b6b&hm=7b699dc8525b35ca51b01caddb59defc93c7cdf018f6c30038cab0fd2433d125&" width="10%"> <Akinor1 width="50%">
 </p>
 
 ---

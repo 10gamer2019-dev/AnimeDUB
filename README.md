@@ -14,15 +14,14 @@
 </p>
 
 ## Navegadores Testados
----
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Vivaldi-Tested-success?style=for-the-badge&logo=vivaldi">
   <img src="https://img.shields.io/badge/Chromium-Compatible-blue?style=for-the-badge&logo=googlechrome">
-  <img src="https://img.shields.io/badge/Firefox-Not_Supported-red?style=for-the-badge&logo=firefox">
 </p>
 
----
+
 
 ## 📸 Demonstração
 

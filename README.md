@@ -19,8 +19,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Vivaldi-Tested-success?style=for-the-badge&logo=vivaldi">
   <img src="https://img.shields.io/badge/Chromium-Compatible-blue?style=for-the-badge&logo=googlechrome">
-  <img src="https://img.shields.io/badge/Chromium-Compatible-blue?style=for-the-badge&logo=googlechrome">
-  <img src="https://img.shields.io/badge/Chromium-Compatible-blue?style=for-the-badge&logo=googlechrome](https://img.shields.io/badge/Microsoft_Edge-Tested-0078D7?style=for-the-badge&logo=microsoftedge">
+  <img src="[https://img.shields.io/badge/Chromium-Compatible-blue?style=for-the-badge&logo=googlechrome](https://img.shields.io/badge/Microsoft_Edge-Tested-success?style=for-the-badge&logo=microsoftedge)">
 </p>
 
 

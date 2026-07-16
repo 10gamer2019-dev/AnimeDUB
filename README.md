@@ -28,7 +28,7 @@
 ## 📸 Demonstração
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522742364052131942/image_2.png?ex=6a4b8e16&is=6a4a3c96&hm=f0ceb00a4e9f2a4ca53888abdc90a75befe8658b86249eb81e474a329322f98c&" width="100%">
+  <img src="https://cdn.discordapp.com/attachments/907101796655321088/1522742364052131942/image_2.png?ex=6a5a0e96&is=6a58bd16&hm=056ce0316625371b37dff2b55bcf2ff5edaf3ab8bafc396f22a0a6c267302d5f&" width="100%">
 </p>
 
 
